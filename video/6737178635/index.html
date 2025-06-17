@@ -3,7 +3,8 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width,height=device-height,inital-scale=1.0,maximum-scale=1.0,user-scalable=no;" />
+    <meta name="viewport"
+        content="width=device-width,height=device-height,inital-scale=1.0,maximum-scale=1.0,user-scalable=no;" />
     <style type="text/css"></style>
     <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
     <!-- <script>
@@ -26,7 +27,7 @@
             height: 100%;
             background-color: #000;
         }
-        
+
         .video {
             position: absolute;
             height: auto;
@@ -38,6 +39,7 @@
             bottom: 0;
             margin: auto;
         }
+
         .div {
             height: 10vh;
         }
@@ -46,8 +48,8 @@
 
 <body>
     <div></div>
-    <video class="video" autoplay src="trialVideo.mp4" controls="controls">
-      您的浏览器不支持 video 标签。
+    <video class="video" autoplay muted playsinline webkit-playsinline src="trialVideo.mp4">
+        您的浏览器不支持 video 标签。
     </video>
     <div></div>
 </body>
